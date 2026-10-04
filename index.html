@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Economia na conta de luz e rastreamento veicular | Corretor Sinergia</title>
+  <meta name="description" content="Simule a economia na sua conta de energia e conheça o rastreamento veicular SI Conecta. Atendimento por corretor Sinergia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="header"><div class="container">
+  <a href="#topo" aria-label="Sinergia"><img src="assets/img/logo-sinergia.webp" alt="Sinergia" width="104" height="38"></a>
+  <a class="btn btn-primary" data-wa data-wa-text="Olá! Quero saber quanto posso economizar na conta de luz." data-v8-event="Contact" href="#contato">WhatsApp</a>
+</div></header>
+
+<main id="topo">
+  <!-- 1. TOPO -->
+  <section class="hero"><div class="container">
+    <div>
+      <span class="eyebrow" style="color:#ffb27a">Energia por assinatura</span>
+      <h1>Descubra quanto você pode <b>economizar na conta de luz</b></h1>
+      <p class="lead">De 10% a 30% de economia na fatura*, sem adesão, obras ou instalações. Faça a simulação em 30 segundos e receba a análise do seu caso.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#simulador">Calcular minha economia</a>
+        <a class="btn btn-ghost" data-wa data-wa-text="Olá! Quero saber quanto posso economizar na conta de luz." data-v8-event="Contact" href="#contato">Falar no WhatsApp</a>
+      </div>
+      <p class="hero-note">*Percentuais de referência. Variam conforme distribuidora, região, modalidade e disponibilidade de geração.</p>
+    </div>
+    <div class="hero-media"><img src="assets/img/app-economia.webp" alt="Exemplo de resumo de economia no aplicativo" width="420" height="521" fetchpriority="high"><span class="tag">Simulação ilustrativa</span></div>
+  </div></section>
+
+  <div class="trust"><div class="container"><ul>
+    <li>Sem adesão, obras ou instalações*</li><li>Assinatura digital</li><li>Suporte dedicado</li><li>+1.600 usinas conectadas</li>
+  </ul></div></div>
+
+  <!-- 2. SIMULADOR -->
+  <section class="block" id="simulador"><div class="container calc">
+    <div>
+      <span class="eyebrow">Simulador</span>
+      <h2>Veja uma estimativa da sua economia</h2>
+      <p class="muted">Informe o valor médio da sua fatura e o seu estado. O resultado usa o percentual de referência da Sinergia e serve só como orientação: a condição final depende da análise da sua fatura.</p>
+      <div class="chips" id="uf-chips" style="justify-content:flex-start;margin-top:14px"></div>
+      <p class="small muted" id="uf-note" style="margin-top:10px">Toque em um estado para ver o percentual de referência.</p>
+    </div>
+    <div class="calc-box">
+      <form id="simulador-form" novalidate>
+        <label>Valor da sua fatura de luz (R$)<input id="sim-bill" inputmode="decimal" placeholder="Ex.: 690" autocomplete="off"></label>
+        <label>Seu estado<select id="sim-uf"></select></label>
+        <div class="result" id="sim-result" hidden aria-live="polite"></div>
+        <a class="btn btn-primary btn-block" id="sim-cta" data-wa data-wa-text="Olá! Quero a análise da minha conta de luz." data-v8-event="Contact" href="#contato" style="margin-top:14px">Receber minha análise no WhatsApp</a>
+        <a class="btn btn-outline btn-block" href="#contato" style="margin-top:10px">Prefiro que me liguem</a>
+      </form>
+    </div>
+  </div></section>
+
+  <!-- 3. COMO FUNCIONA -->
+  <section class="block alt"><div class="container">
+    <div class="sec-head"><span class="eyebrow">Como funciona</span><h2>Cinco passos até a economia na sua conta</h2></div>
+    <ol class="steps" style="max-width:760px;margin-inline:auto">
+      <li><div><b>Cadastro simples</b><span>Você envia os dados da sua conta de luz.</span></div></li>
+      <li><div><b>Assinatura digital</b><span>Tudo online, sem papelada.</span></div></li>
+      <li><div><b>Processo junto à distribuidora</b><span>A Sinergia cuida da etapa com a operação.</span></div></li>
+      <li><div><b>Economia aplicada à conta</b><span>O desconto passa a aparecer na sua fatura.</span></div></li>
+      <li><div><b>Suporte dedicado</b><span>Atendimento pelo sistema e pelo WhatsApp.</span></div></li>
+    </ol>
+    <p class="legal center" style="margin-top:16px">Prazos e condições variam conforme a distribuidora, a região e a modalidade contratada.</p>
+  </div></section>
+
+  <!-- 4. ENERGIA: imagem + Lei -->
+  <section class="block"><div class="container split">
+    <img src="assets/img/banner-energia.webp" alt="Unidade Sinergia com comunicação de economia na conta de energia" width="1100" height="619" loading="lazy">
+    <div>
+      <span class="eyebrow">Energia</span>
+      <h2>Mercado livre e geração distribuída</h2>
+      <ul class="list">
+        <li><span><b>Mercado Livre:</b> cobertura em todo o território nacional.</span></li>
+        <li><span><b>Geração distribuída:</b> condições e descontos conforme distribuidora e região.</span></li>
+        <li><span>Rede com <b>mais de 1.600 usinas</b> conectadas, segundo a Sinergia.</span></li>
+      </ul>
+      <p class="legal">Baseado na Lei nº 14.300/2022 (Marco Legal da Micro e Minigeração Distribuída e do Sistema de Compensação de Energia Elétrica). Os descontos dependem de distribuidora, região, modalidade e disponibilidade de geração.</p>
+      <a class="btn btn-primary" href="#simulador">Simular minha economia</a>
+    </div>
+  </div></section>
+
+  <!-- 5. SI CONECTA -->
+  <section class="block dark"><div class="container">
+    <div class="split">
+      <div>
+        <img class="logo-sm" src="assets/img/logo-siconecta.webp" alt="SI Conecta" width="200" height="43" loading="lazy">
+        <h2>Seu veículo protegido, onde você estiver</h2>
+        <p class="muted">Monitoramento veicular em tempo real, 24 horas por dia, 7 dias por semana.</p>
+        <ul class="list">
+          <li>Monitoramento 24h / 7 dias por semana</li><li>Localização em tempo real</li><li>Acionamento de bloqueio pelo aplicativo</li><li>Cobertura nacional e internacional</li><li>Atalho de ajuda para emergência</li>
+        </ul>
+        <span class="price-tag">Por menos de R$ 1,20 por dia*</span>
+        <p class="legal" style="color:#8ea3c0">*Consulte condições, cobertura e disponibilidade conforme o plano contratado.</p>
+        <a class="btn btn-primary" data-wa data-wa-text="Olá! Quero saber mais sobre o rastreamento SI Conecta para o meu veículo." data-v8-event="Contact" href="#contato">Quero proteger meu veículo</a>
+      </div>
+      <div class="gallery">
+        <img class="wide" src="assets/img/banner-carro.webp" alt="Carro protegido 24 horas por dia com SI Conecta" width="1100" height="619" loading="lazy">
+        <img src="assets/img/app-siconecta.webp" alt="Aplicativo SI Conecta com rastreamento em tempo real" width="320" height="397" loading="lazy">
+        <img src="assets/img/arte-moto.webp" alt="Moto protegida 24 horas com SI Conecta" width="260" height="428" loading="lazy">
+      </div>
+    </div>
+  </div></section>
+
+  <!-- 6. SEU CORRETOR -->
+  <section class="block alt" data-v8-show="content.name"><div class="container center">
+    <span class="eyebrow">Atendimento</span>
+    <div class="person">
+      <img data-v8="content.photo" alt="Seu corretor" width="110" height="110" loading="lazy">
+      <div style="text-align:left"><h3 style="margin:0"><span data-v8="content.name"></span></h3><p class="muted" style="margin:0"><span data-v8="content.job">Corretor Sinergia</span></p><p class="small muted" style="margin:0"><span data-v8="content.registration"></span></p></div>
+    </div>
+    <p class="muted" style="max-width:34em;margin:16px auto 0">Eu faço o seu atendimento do início ao fim: análise da sua conta, cadastro e suporte.</p>
+  </div></section>
+
+  <!-- 7. FAQ -->
+  <section class="block"><div class="container" style="max-width:780px">
+    <div class="sec-head"><span class="eyebrow">Dúvidas</span><h2>Perguntas frequentes</h2></div>
+    <details><summary>Como funciona a energia por assinatura?</summary><p>Você faz um cadastro simples, assina digitalmente e a Sinergia conduz o processo junto à distribuidora. Depois, a economia passa a ser aplicada à sua conta de energia, com suporte dedicado.</p></details>
+    <details><summary>Preciso instalar algo ou fazer obras?</summary><p>Não. A proposta é sem adesão, obras ou instalações, conforme a comunicação da Sinergia. Confirme os detalhes do seu caso no atendimento.</p></details>
+    <details><summary>Em quais regiões a economia está disponível?</summary><p>O Mercado Livre tem cobertura nacional. Na Geração Distribuída, os percentuais variam por estado e distribuidora: use o simulador para ver o percentual de referência do seu estado.</p></details>
+    <details><summary>O desconto é garantido?</summary><p>Os percentuais mostrados são de referência. O desconto final depende da distribuidora, da região, da modalidade e da disponibilidade de geração, e é confirmado na análise da sua fatura.</p></details>
+    <details><summary>Como funciona o rastreamento veicular?</summary><p>O SI Conecta monitora o veículo 24h por dia, 7 dias por semana, com localização em tempo real, bloqueio pelo aplicativo e atalho de ajuda para emergência. Consulte condições, cobertura e disponibilidade conforme o plano.</p></details>
+    <details><summary>Existe suporte depois da contratação?</summary><p>Sim. O suporte é feito pelo sistema e também pelo WhatsApp.</p></details>
+  </div></section>
+
+  <!-- 8. CONTATO -->
+  <section class="block dark" id="contato"><div class="container">
+    <div class="sec-head"><span class="eyebrow">Fale comigo</span><h2>Receba a análise do seu caso</h2><p>Deixe seus dados e eu entro em contato pelo WhatsApp.</p></div>
+    <form class="form" data-v8-form data-success="Recebi seus dados! Já já entro em contato." id="leadForm">
+      <input type="hidden" name="origem" value="cliente">
+      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
+      <input type="hidden" name="fatura" id="f-fatura">
+      <label>Seu nome<input name="name" required autocomplete="name" placeholder="Nome completo"></label>
+      <label>WhatsApp<input name="phone" type="tel" required inputmode="tel" autocomplete="tel" placeholder="(00) 00000-0000"></label>
+      <label>E-mail <small>(opcional)</small><input name="email" type="email" autocomplete="email" placeholder="voce@email.com"></label>
+      <label>Tenho interesse em<select name="interesse"><option>Economia na conta de luz</option><option>Rastreamento veicular</option><option>Os dois</option></select></label>
+      <label class="check"><input type="checkbox" name="consentimento" required> <span>Concordo em ser contatado(a) sobre este assunto e com a <a href="privacidade.html" target="_blank" rel="noopener">Política de Privacidade</a>.</span></label>
+      <button class="btn btn-primary btn-block" type="submit">Quero minha análise</button>
+      <div class="after-lead"><p>Quer adiantar? Me chame agora:</p><a class="btn btn-outline" data-wa data-wa-text="Olá! Acabei de enviar meus dados pela página." data-v8-event="Contact" href="#contato">Falar no WhatsApp</a></div>
+    </form>
+  </div></section>
+</main>
+
+<footer class="footer"><div class="container">
+  <img src="assets/img/logo-sinergia.webp" alt="Sinergia" width="97" height="36" loading="lazy">
+  <p>Página de divulgação de corretor Sinergia. <a data-v8="social.instagram" target="_blank" rel="noopener">Instagram</a> · <a href="privacidade.html">Política de Privacidade</a></p>
+  <p class="legal">Esta página é mantida por um corretor independente e não é o site oficial da Sinergia. Condições, percentuais, prazos e disponibilidade variam conforme distribuidora, região, modalidade e plano contratado, e são confirmados no atendimento. Percentuais e valores exibidos são de referência e não constituem promessa de desconto. © <span id="year"></span> Sinergia.</p>
+</div></footer>
+
+<div class="sticky"><a class="btn btn-primary" data-wa data-wa-text="Olá! Quero saber quanto posso economizar na conta de luz." data-v8-event="Contact" href="#contato">Falar no WhatsApp</a></div>
+
+<!-- Troque ID_DO_PROJETO pelo ID do projeto (painel V8 › Projetos › Editar › Geral › Copiar ID) -->
+<script src="js/v8-loader.js" data-project-id="ID_DO_PROJETO"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
