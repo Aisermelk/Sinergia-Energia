@@ -1061,41 +1061,54 @@ details p{
 
 
 /* =========================================================
-   CTA FIXO
+   WHATSAPP FLUTUANTE
    ========================================================= */
 
-.sticky{
+.whatsapp-float{
   position:fixed;
-
-  left:0;
-  right:0;
-  bottom:0;
-
-  z-index:50;
-
-  padding:10px 14px;
-
-  background:#fffffff2;
-
-  backdrop-filter:blur(8px);
-  -webkit-backdrop-filter:blur(8px);
-
-  border-top:1px solid var(--border);
-
-  box-shadow:
-    0 -8px 24px -12px #071e3d40;
-
-  transform:translateY(0);
-
-  transition:transform .25s ease;
+  right:22px;
+  bottom:22px;
+  z-index:100;
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  min-height:52px;
+  padding:0 20px;
+  border-radius:999px;
+  background:#159447;
+  color:#fff;
+  text-decoration:none;
+  font-weight:700;
+  box-shadow:0 12px 30px rgba(0,0,0,.18);
+  transition:transform .2s ease, box-shadow .2s ease;
 }
 
-.sticky.hide{
-  transform:translateY(110%);
+.whatsapp-float:hover{
+  transform:translateY(-3px);
+  box-shadow:0 16px 34px rgba(0,0,0,.22);
 }
 
-.sticky .btn{
-  width:100%;
+.whatsapp-float svg{
+  width:25px;
+  height:25px;
+  fill:currentColor;
+  flex:0 0 auto;
+}
+
+@media (max-width:759px){
+  .whatsapp-float{
+    right:16px;
+    bottom:16px;
+    width:52px;
+    height:52px;
+    min-height:52px;
+    padding:0;
+    justify-content:center;
+  }
+
+  .whatsapp-float span{
+    display:none;
+  }
 }
 
 
@@ -1132,14 +1145,6 @@ details p{
 
   .trust ul{
     grid-template-columns:repeat(4,1fr);
-  }
-
-  .sticky{
-    display:none;
-  }
-
-  body{
-    padding-bottom:0;
   }
 
   .steps li{
